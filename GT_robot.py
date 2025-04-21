@@ -17,7 +17,7 @@ def main():
 
     while True:
         i = 0
-        robot.MoveJ(GTpreplace, 0, 0)
+        robot.MoveJ(GTpreplace, 0, 0, vel=40)
         while i < 2:
             robot.SetDO(0,1)
             robot.WaitMs(500)
